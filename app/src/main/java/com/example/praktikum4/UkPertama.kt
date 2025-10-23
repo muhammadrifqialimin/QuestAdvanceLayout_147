@@ -78,6 +78,30 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF1976D2) // biru lembut
+            )
+        ) {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Text(
+                    text = "About Me",
+                    fontSize = 26.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "Saya adalah mahasiswa yang aktif dan bersemangat belajar Android Development menggunakan Jetpack Compose. Saya menyukai desain UI dan pengembangan aplikasi yang interaktif.",
+                    fontSize = 16.sp,
+                    color = Color.White
+                )
+            }
+        }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
