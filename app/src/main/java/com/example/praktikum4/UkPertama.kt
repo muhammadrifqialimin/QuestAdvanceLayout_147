@@ -91,13 +91,13 @@ fun ActivitasPertama(modifier: Modifier) {
                     text = "About Me",
                     fontSize = 26.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.White
+                    color = Color.Black
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = "Saya adalah mahasiswa yang aktif dan bersemangat belajar Android Development menggunakan Jetpack Compose. Saya menyukai desain UI dan pengembangan aplikasi yang interaktif.",
                     fontSize = 16.sp,
-                    color = Color.White
+                    color = Color.Black
                 )
             }
         }
