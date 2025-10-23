@@ -114,13 +114,13 @@ fun ActivitasPertama(modifier: Modifier) {
                     text = "Fun Fact 🎉",
                     fontSize = 26.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.White
+                    color = Color.Black
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = "Saya pernah membuat aplikasi sederhana yang diunduh lebih dari 1.000 kali di Play Store! Selain itu, saya juga suka ngoding sambil denger musik lo-fi.",
                     fontSize = 16.sp,
-                    color = Color.White
+                    color = Color.Black
                 )
             }
         }
