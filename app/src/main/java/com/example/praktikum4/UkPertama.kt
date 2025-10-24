@@ -88,6 +88,10 @@ fun ActivitasPertama(modifier: Modifier) {
         ) {
             Row() {
                 val gambar = painterResource(R.drawable.pramuka)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                )
         Box(
             modifier = Modifier
                 .fillMaxSize()
