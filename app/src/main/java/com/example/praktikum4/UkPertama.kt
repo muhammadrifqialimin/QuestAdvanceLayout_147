@@ -106,7 +106,7 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
                     Text(
                         stringResource(R.string.nim),
-                        fontSize = 30.sp,
+                        fontSize = 20.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
@@ -120,6 +120,14 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.LightGray
+            )
+        )
         Box(
             modifier = Modifier
                 .fillMaxSize()
