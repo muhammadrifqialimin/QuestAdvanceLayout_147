@@ -127,7 +127,17 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.LightGray
             )
-        )
+        ) {
+            Row() {
+                val gambar = painterResource(R.drawable.pramuka)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+                Spacer(modifier = Modifier.width(30.dp))
         Box(
             modifier = Modifier
                 .fillMaxSize()
