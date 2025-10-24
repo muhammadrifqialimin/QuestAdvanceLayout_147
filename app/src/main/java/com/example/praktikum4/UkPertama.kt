@@ -91,6 +91,9 @@ fun ActivitasPertama(modifier: Modifier) {
                 Image(
                     painter = gambar,
                     contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
                 )
         Box(
             modifier = Modifier
