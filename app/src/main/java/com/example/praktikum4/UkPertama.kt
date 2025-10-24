@@ -85,7 +85,9 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.Blue
             )
-        )
+        ) {
+            Row() {
+                val gambar = painterResource(R.drawable.pramuka)
         Box(
             modifier = Modifier
                 .fillMaxSize()
